@@ -1,25 +1,25 @@
-import React, { useEffect, useRef } from 'react';
-import Alekhya from "../Public/assets/images/Alekhya.png"
+import React, { useEffect, useRef } from "react";
+import Alekhya from "../Public/assets/images/Alekhya.png";
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          entry.target.classList.add('opacity-100', 'translate-y-0');
-          entry.target.classList.remove('opacity-0', 'translate-y-10');
+          entry.target.classList.add("opacity-100", "translate-y-0");
+          entry.target.classList.remove("opacity-0", "translate-y-10");
         }
       },
       {
         threshold: 0.1,
       }
     );
-    
+
     if (heroRef.current) {
       observer.observe(heroRef.current);
     }
-    
+
     return () => {
       if (heroRef.current) {
         observer.unobserve(heroRef.current);
@@ -66,7 +66,13 @@ const Hero = () => {
                 <img
                   src={Alekhya}
                   alt="Alekhya Alapati in Kuchipudi costume"
-                  className="relative rounded-lg shadow-2xl w-full max-w-md h-[600px] object-cover border-4 border-amber-400/30"
+                  className="
+      relative rounded-lg shadow-2xl border-4 border-amber-400/30
+      w-[280px] h-[400px]
+      sm:w-[320px] sm:h-[450px]
+      md:w-[360px] md:h-[500px]
+      lg:w-[450px] lg:h-[600px]
+    "
                 />
                 {/* Decorative elements around image */}
                 <div className="absolute -top-4 -left-4 w-8 h-8 border-2 border-amber-400 rounded-full bg-amber-400/20"></div>
