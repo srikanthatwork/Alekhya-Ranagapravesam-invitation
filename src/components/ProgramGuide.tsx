@@ -738,7 +738,7 @@ const ProgramGuide = () => {
     >
       <div
         ref={sectionRef}
-        className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 ease-in-out transform opacity-0 translate-y-10 will-change-transform"
+        className="container mx-auto px-4 sm:px-6 lg:px-8 transition-all duration-1000 ease-in-out transform  translate-y-10 will-change-transform"
       >
         <div className="max-w-6xl mx-auto mt-24">
           <div className="text-center mb-16">
