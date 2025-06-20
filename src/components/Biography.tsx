@@ -45,7 +45,7 @@ const About = () => {
               <img
                 src={Alekhya}
                 alt="Alekhya Alapati performing Kuchipudi"
-                className="rounded-lg shadow-lg w-full h-[600px]"
+                className="rounded-lg shadow-lg mx-auto w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[400px] h-[350px] sm:h-[400px] md:h-[450px] mt-10"
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
@@ -55,8 +55,8 @@ const About = () => {
                 years, she continued her training with Guru Smt. Revathi
                 Komanduri, where she built a strong foundation in the classical
                 art form. In 2017, after moving to Dallas, Alekhya resumed her
-                tutelage under Guru Smt. Manju Hema MaliniChavali, with whom
-                she continues to learn and grow as a dancer.
+                tutelage under Guru Smt. Manju Hemamalini Chavali, with whom she
+                continues to learn and grow as a dancer.
               </p>
 
               <p className="mb-6">
@@ -85,7 +85,7 @@ const About = () => {
                 connection to Kuchipudi alive and thriving.
               </p>
 
-              <p >
+              <p>
                 She seeks the blessings of her gurus, elders, and well-wishers
                 as she embarks on this new chapter, both as a student and an
                 artist.
