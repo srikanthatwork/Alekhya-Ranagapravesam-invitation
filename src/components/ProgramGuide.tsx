@@ -619,13 +619,13 @@
 // export default ProgramGuide;
 import React, { useEffect, useRef } from "react";
 import { Music2 } from "lucide-react";
-import image1 from "../Public/assets/images/brochure photos/1gajavadhana-297x399.jpg";
-import image2 from "../Public/assets/images/brochure photos/2saraswathi-297x399.jpg";
-import image3 from "../Public/assets/images/brochure photos/3kalyanarama-297x399.jpg";
-import image4 from "../Public/assets/images/brochure photos/4marakata-297x399.jpg";
-import image5 from "../Public/assets/images/brochure photos/5muddhugare-297x399.jpg";
-import image6 from "../Public/assets/images/brochure photos/6shivastakam-297x399.jpg";
-import image7 from "../Public/assets/images/brochure photos/7thillana-297x399.jpg";
+import image1 from "../Public/assets/images/brochure photos/1gajavadhana.jpg";
+import image2 from "../Public/assets/images/brochure photos/2saraswathi.jpg";
+import image3 from "../Public/assets/images/brochure photos/3kalyanarama.jpg";
+import image4 from "../Public/assets/images/brochure photos/4marakata.jpg";
+import image5 from "../Public/assets/images/brochure photos/5muddhugare.jpg";
+import image6 from "../Public/assets/images/brochure photos/06shivastakam.jpg";
+import image7 from "../Public/assets/images/brochure photos/7thillana.jpg";
 // import { Description } from "@radix-ui/react-dialog";
 
 const ProgramGuide = () => {
@@ -761,10 +761,10 @@ const ProgramGuide = () => {
                 <div className="p-6 sm:p-8 md:p-12">
                   <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-8 items-start">
                     {/* Left Side – Decorative Box */}
-                    <div className="lg:col-span-1 w-full max-w-[300px] mx-auto sm:mx-0">
-                      <div className="relative w-full h-0 pb-[133%] bg-gradient-to-br from-amber-600/20 to-amber-800/20 rounded-lg border-2 border-amber-400/30 flex items-center justify-center">
+                    <div className="lg:col-span-1 w-full max-w-[280px] mx-auto sm:mx-0">
+                      <div className="relative w-full h-0 pb-[149%] bg-gradient-to-br from-amber-600/20 to-amber-800/20 rounded-lg border-2 border-amber-400/30 flex items-center justify-center">
                         <div className="absolute inset-0 flex flex-col items-center justify-center text-amber-300">
-                          <div >
+                          <div>
                             {/* <Music2 size={32} /> */}
 
                             <img
@@ -840,6 +840,13 @@ const ProgramGuide = () => {
                 <div className="h-1 bg-gradient-to-r from-transparent via-amber-400/50 to-transparent" />
               </div>
             ))}
+          </div>
+          <div className="text-center mt-20">
+            <p className="text-amber-200 text-lg max-w-3xl mx-auto leading-relaxed">
+              The performance concludes with <strong> Mangalam</strong> - a
+              gesture of gratitude extended to the divine, the gurus,
+              and the audience.
+            </p>
           </div>
 
           {/* Closing Note */}

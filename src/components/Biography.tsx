@@ -45,18 +45,18 @@ const About = () => {
               <img
                 src={Alekhya}
                 alt="Alekhya Alapati performing Kuchipudi"
-                className="rounded-lg shadow-lg w-full h-[600px] object-cover"
+                className="rounded-lg shadow-lg w-full h-[600px]"
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700 leading-relaxed">
               <p className="mb-6">
-                <strong>Alekhya</strong> began her Kuchipudi journey at the age of 4
-                under the guidance of Guru Neelima Gaddamanugu. After 2 years,
-                she continued her training with Guru Smt. Revathi Komanduri,
-                where she built a strong foundation in the classical art form.
-                In 2017, after moving to Dallas, Alekhya resumed her tutelage
-                under Guru Smt. Manju Hema Malini Chavali, with whom she
-                continues to learn and grow as a dancer.
+                <strong>Alekhya</strong> began her Kuchipudi journey at the age
+                of 4 under the guidance of Guru Neelima Gaddamanugu. After 2
+                years, she continued her training with Guru Smt. Revathi
+                Komanduri, where she built a strong foundation in the classical
+                art form. In 2017, after moving to Dallas, Alekhya resumed her
+                tutelage under Guru Smt. Manju Hema MaliniChavali, with whom
+                she continues to learn and grow as a dancer.
               </p>
 
               <p className="mb-6">
@@ -70,12 +70,12 @@ const About = () => {
                 community.
               </p>
 
-              <blockquote className="italic border-l-4 border-amber-600 pl-4 py-2 my-8 bg-amber-50">
+              {/* <blockquote className="italic border-l-4 border-amber-600 pl-4 py-2 my-8 bg-amber-50">
                 "Kuchipudi isn't just a dance form to me; it's a way of
                 connecting with our cultural heritage and expressing emotions
                 that words alone cannot convey."
                 <footer className="text-right mt-2">- Alekhya Alapati</footer>
-              </blockquote>
+              </blockquote> */}
 
               <p className="mb-2">
                 Alekhya will be attending Case Western Reserve University, where
@@ -85,7 +85,7 @@ const About = () => {
                 connection to Kuchipudi alive and thriving.
               </p>
 
-              <p>
+              <p >
                 She seeks the blessings of her gurus, elders, and well-wishers
                 as she embarks on this new chapter, both as a student and an
                 artist.

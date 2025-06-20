@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import Alekhya from "../Public/assets/images/Alekhya.png";
+import Alekhya from "../Public/assets/images/Alekhya5.png";
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement>(null);
 
@@ -140,9 +140,12 @@ const Hero = () => {
 
               <div className="bg-amber-700/50 backdrop-blur-sm rounded-lg p-4 mb-8 border border-amber-400/30">
                 <p className="text-amber-200 text-center">
-                  <span className="font-semibold">Dinner at Courtyard</span>
+                  <span className="font-semibold">
+                    Dinner at 07:00 PM <br />
+                  </span>
                   <br />
-                  2200 Bass Pro Court, Grapevine, TX 76051
+                  Venue :<br />
+                  Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051
                 </p>
               </div>
 
