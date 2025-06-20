@@ -60,7 +60,7 @@ const EventModal = ({ children }: EventModalProps) => {
                 <span className="font-semibold">03:00 PM - 06:00 PM</span>
               </div>
               <div className="flex items-start gap-3 text-amber-800">
-                <MapPin size={20} className="mt-1" />
+                <MapPin size={22} className="mt-1" />
                 <a
                   href={mapsUrl}
                   target="_blank"
