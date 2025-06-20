@@ -68,10 +68,10 @@ const Hero = () => {
                   alt="Alekhya Alapati in Kuchipudi costume"
                   className="
       relative rounded-lg shadow-2xl border-4 border-amber-400/30
-      w-[280px] h-[400px]
+      w-[278px] h-[290px]
       sm:w-[320px] sm:h-[450px]
       md:w-[360px] md:h-[500px]
-      lg:w-[450px] lg:h-[600px]
+      lg:w-[550px] lg:h-[600px]
     "
                 />
                 {/* Decorative elements around image */}

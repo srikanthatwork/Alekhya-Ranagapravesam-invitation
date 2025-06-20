@@ -73,7 +73,7 @@ const EventModal = ({ children }: EventModalProps) => {
                 </a>
               </div>
               <div className="flex items-start gap-3 text-amber-800">
-                <MapPin size={20} className="mt-1" />
+                <MapPin className="mt-1 w-9 h-9 sm:w-5 sm:h-5 md:w-5 md:h-5" />
                 <a
                   href={mapsUrl2}
                   target="_blank"
@@ -82,8 +82,7 @@ const EventModal = ({ children }: EventModalProps) => {
                 >
                   Dinner at 07:00 PM
                   <br />
-                  Venue : 
-                  Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051
+                  Venue : Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051
                 </a>
               </div>
             </div>
