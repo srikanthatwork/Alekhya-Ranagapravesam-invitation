@@ -75,7 +75,7 @@ const ExpertGuidance = () => {
               <img
                 src={AlekhyaGuru}
                 alt="Guru Smt. Manju Hema Malini Chavali"
-                className="rounded-lg shadow-lg w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[450px] h-[350px] sm:h-[400px] md:h-[450px] "
+                className="rounded-lg shadow-lg w-full max-w-[300px] sm:max-w-[350px] md:max-w-[400px] lg:max-w-[400px] h-[350px] sm:h-[400px] md:h-[450px] "
               />
             </div>
             <div className="prose prose-lg max-w-none text-stone-700">

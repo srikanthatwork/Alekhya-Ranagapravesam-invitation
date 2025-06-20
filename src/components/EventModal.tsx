@@ -8,8 +8,7 @@ interface EventModalProps {
 
 const EventModal = ({ children }: EventModalProps) => {
   const address = "Coppell Arts Center, 505 Travis St, Coppell, TX 75019";
-  const address2 =
-    "Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051";
+  const address2 = "Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051";
 
   const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
     address
@@ -18,23 +17,22 @@ const EventModal = ({ children }: EventModalProps) => {
     address2
   )}`;
 
+  // const addToCalendar = () => {
+  //   const event = {
+  //     text: "Alekhya Alapati's Rangapravesam",
+  //     dates: "20250628T080000/20250628T220000",
+  //     location: "Coppell Arts Center, 505 Travis St, Coppell, TX 75019",
+  //     details:
+  //       "Join us for Alekhya Alapati's Rangapravesam, marking her formal debut as a Kuchipudi dancer.",
+  //   };
 
-  const addToCalendar = () => {
-    const event = {
-      text: "Alekhya Alapati's Rangapravesam",
-      dates: "20250628T080000/20250628T220000",
-      location: "Coppell Arts Center, 505 Travis St, Coppell, TX 75019",
-      details:
-        "Join us for Alekhya Alapati's Rangapravesam, marking her formal debut as a Kuchipudi dancer.",
-    };
-
-    const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
-      event.text
-    )}&dates=${event.dates}&location=${encodeURIComponent(
-      event.location
-    )}&details=${encodeURIComponent(event.details)}`;
-    window.open(googleUrl, "_blank");
-  };
+  //   const googleUrl = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(
+  //     event.text
+  //   )}&dates=${event.dates}&location=${encodeURIComponent(
+  //     event.location
+  //   )}&details=${encodeURIComponent(event.details)}`;
+  //   window.open(googleUrl, "_blank");
+  // };
 
   return (
     <Dialog.Root>
@@ -59,7 +57,7 @@ const EventModal = ({ children }: EventModalProps) => {
               </div>
               <div className="flex items-center gap-3 text-amber-800">
                 <Clock size={20} />
-                <span className="font-semibold">03:00 PM - 07:00 PM</span>
+                <span className="font-semibold">03:00 PM - 06:00 PM</span>
               </div>
               <div className="flex items-start gap-3 text-amber-800">
                 <MapPin size={20} className="mt-1" />
@@ -82,14 +80,15 @@ const EventModal = ({ children }: EventModalProps) => {
                   rel="noopener noreferrer"
                   className="font-semibold hover:text-amber-600 transition-colors duration-300"
                 >
-                  Dinner at Courtyard
+                  Dinner at 07:00 PM
                   <br />
-                  2200 Bass Pro Court, Grapevine, TX 76051
+                  Venue : 
+                  Courtyard, 2200 Bass Pro Court, Grapevine, TX 76051
                 </a>
               </div>
             </div>
 
-            <div className="prose prose-amber max-w-none">
+            {/* <div className="prose prose-amber max-w-none">
               <h3 className="text-xl text-amber-800 font-semibold">
                 Event Description
               </h3>
@@ -105,9 +104,9 @@ const EventModal = ({ children }: EventModalProps) => {
                 dance items, demonstrating the breadth and depth of this
                 classical art form through various choreographic pieces.
               </p>
-            </div>
+            </div> */}
 
-            <div className="space-y-4">
+            {/* <div className="space-y-4">
               <h3 className="text-xl text-amber-800 font-semibold">Location</h3>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.744892352843!2d-97.00972922487084!3d32.95161427504368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2b63fbcc0227%3A0x581a266e00accf1!2sCoppell%20Arts%20Center!5e1!3m2!1sen!2sin!4v1749031828933!5m2!1sen!2sin"
@@ -119,14 +118,14 @@ const EventModal = ({ children }: EventModalProps) => {
                 referrerPolicy="no-referrer-when-downgrade"
                 className="rounded-lg"
               ></iframe>
-            </div>
+            </div> */}
 
-            <button
+            {/* <button
               onClick={addToCalendar}
               className="w-full py-3 bg-amber-600 text-amber-50 rounded-md hover:bg-amber-700 transition-colors duration-300"
             >
               Add to Calendar
-            </button>
+            </button> */}
           </div>
         </Dialog.Content>
       </Dialog.Portal>
